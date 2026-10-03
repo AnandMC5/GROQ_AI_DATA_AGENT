@@ -1,0 +1,49 @@
+Use these questions to test the Data Agent routing + SQL Agent + Profile Agent + Report generation.
+
+SQL questions
+
+For your current PostgreSQL database:
+
+How many users are in the database?
+How many rides are there?
+What is the average ride fare?
+What is the total payment amount?
+Which users have taken the most rides?
+Which cities have the highest number of users?
+What are the different payment methods?
+How many rides were cancelled?
+What is the average rating given by users?
+Which vehicles are currently active?
+What are the most common vehicle makes?
+What is the highest fare recorded?
+What is the lowest ride fare?
+How many payments are successful versus failed?
+Which users have the highest total spending?
+What is the average distance of rides?
+How many active users are there?
+Show me the top 10 users by total amount spent.
+Show me the top 10 cities by number of users.
+What is the distribution of rides by status?
+Profile questions
+
+For these, provide the actual file path in the question, for example:
+
+Profile C:\PROJECTS\GROK_DATA_AGENT\data\customers.csv
+
+Then try:
+
+Profile this CSV file and give me an overview.
+Profile this file and identify missing values.
+Analyze the data types in this dataset.
+Find duplicate records in this file.
+Identify columns with a high percentage of missing values.
+Show me the unique-value statistics for each column.
+Analyze the numeric columns in this dataset.
+Identify potential data quality issues.
+Find columns that contain constant values.
+Give me a complete data-quality report for this file.
+Analyze this dataset and summarize the important findings.
+Check this file for nulls, duplicates, and empty strings.
+Profile this Excel file and identify problematic columns.
+Give me a statistical summary of this dataset.
+Create a complete profiling report for this dataset.
